@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Contact Us</title>
+  </head>
+
+  <body>
+
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="photography.html">Photography</a></li>
+      <li><a href="webdesign.html">Web Design</a></li>
+      <li><a href="ssm.html">Social Media Management</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+    <h3>Send us a message</h3>
+
+  <form action="scripts/action.php" method="post">
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name" required>
+    <br>
+    <label for="number">Phone number: </label>
+    <input type="text" name="number" id="number" required>
+    <br>
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="email" required>
+  </form>
+
+    <br>
+
+  <form action="scripts/action.php" method="post">
+    <label for="message">Message: </label>
+    <textarea id="message" name="message" rows="5" cols="40">
+    </textarea>
+
+    <br>
+
+    <input type="submit" value="Send Message">
+    </form>
+
+    <br>
+    <br>
+    <p>Check us out on LinkedIn <a href="https://www.linkedin.com/company/nova-design-marketing/">Nova Design</a> to learn more.</p>
+  </body>
+  </html>
