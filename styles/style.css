@@ -4,6 +4,23 @@ header {
 
 h1 {
   font-family: Helvetica, serif;
+  text-align: center;
+}
+
+.about {
+  border: 1px solid black;
+}
+.reviews{
+  border: 1px solid black;
+}
+.price1{
+  border: 1px solid black;
+}
+.price2{
+  border: 1px solid black;
+}
+.price3{
+  border: 1px solid black;
 }
 
 nav {
@@ -37,17 +54,21 @@ li a:hover {
 main {
   background-color: #E6E6E6;
   font-family: Helvetica, serif;
+  text-align: center;
 }
 
 section {
   background-color: #E6E6E6;
+  text-align: center;
 }
 
 form {
   background-color: #E6E6E6;
+  text-align: center;
 }
 
 footer{
   background-color: #e6e6e6;
   font-family: Helvetica, serif;
+  text-align: center;
 }
