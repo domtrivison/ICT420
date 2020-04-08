@@ -4,44 +4,82 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Design</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-grid.css">
   </head>
 
     <body>
-        <header>
-          <h1>Web Design</h1>
-        </header>
+      <header class="head">
 
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="photography.html">Photography</a></li>
-            <li><a href="webdesign.html">Web Design</a></li>
-            <li><a href="ssm.html">Social Media Management</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
+        <div class="logo">
+          <img src="images/Logo.svg" alt="Nova Design" class="respon"/>
+        </div>
 
-        <main>
-          <section class="images">
-            <h4>View some of the work we have done below.</h4>
+        <ul class="navi">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="webdesign.html">Web Design</a></li>
+          <li><a href="ssm.html">Social Media Management</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+      </header>
+
+      <nav>
+      </nav>
+
+        <main class="main">
+         <h4>View some of the work we have done below.</h4>
+          <section class="grid2">
             <article>
-              <h5>Web Design</h5>
-              <img src="images/gcc.JPG" alt="Greens Collision Center" title="Greens Collision Center" height="300" width="600"/>
-              <p><a href="http://www.greenscollisioncenter.com/">Greens Collision Center</a></p>
+              <h2>Greens Collision Center</h2>
+              <p>
+                <a href="http://www.greenscollisioncenter.com/"><img src="images/gcc.JPG" alt="Greens Collision Center" title="Greens Collision Center" class="respon"/></a>
+              </p>
             </article>
+            <article>
+              <h2>Lexington Coffee Roasters (Mock)</h2>
+              <p>
+                <a href="https://domtrivison29.wixsite.com/lexcr"><img src="images/lexcof.jpg" alt="Lexington Coffee Roasters" title="Lexington Coffee Roasters" class="respon"/></a>
+              </p>
+            </article>
+          </section>
+
+          <section>
             <article>
               <p>All of our web design services are priced on a case by case basis. Contact us below to inquire more and tell us about what you need.</p>
                 <h4>
                   <a href="contact.html">Contact us</a> and leave a message.
                 </h4>
-          </article>
+            </article>
           </section>
         </main>
 
         <footer>
-          <p><a href="index.html">Home</a></p>
-          <p>©Copyright 2020 NovaDesign. All rights reversed.</p>
+          <section>
+            <article id="footer">
+              <div>
+                <h2>Visit Us</h2>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.7121197373117!2d-84.51562634924397!3d38.030490305079496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884244af89e9123f%3A0xfcc148a75010c250!2s210%20State%20St%2C%20Lexington%2C%20KY%2040503!5e0!3m2!1sen!2sus!4v1586286912322!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+              </div>
+              <div>
+                <h2>Contact Us</h2>
+                <p><i>A local company in Lexington, Kentucky providing services across the region. If you cannot find what you are looking for feel free to contact us with any questions!</i></p>
+                <br>
+                <p> 859-221-6606 </p>
+              </div>
+              <div>
+                <h2>Navigation</h2>
+                <ul id="footernav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="photography.html">Photography</a></li>
+                  <li><a href="webdesign.html">Web Design</a></li>
+                  <li><a href="ssm.html">Social Media Management</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+          </article>
+          <div id="copyright"><small>©Copyright 2020 Nova Design. All rights reversed.</small></div>
+        </section>
         </footer>
 
       </body>

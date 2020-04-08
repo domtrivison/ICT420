@@ -4,7 +4,7 @@ header {
 
 h1 {
   font-family: Helvetica, serif;
-  text-align: center;
+
 }
 
 .about {
@@ -43,6 +43,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
+  display: block;
   padding: 14px 16px;
   text-decoration: none;
 }

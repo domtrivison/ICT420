@@ -5,48 +5,94 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Nova Design</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-grid.css">
   </head>
   <body>
 
-    <header>
-      <h1>Nova Design</h1>
-    </header>
+    <header class="head">
 
-    <nav>
-      <ul>
+      <div class="logo">
+        <img src="images/Logo.svg" alt="Nova Design" class="respon"/>
+      </div>
+
+      <ul class="navi">
         <li><a href="index.html">Home</a></li>
         <li><a href="photography.html">Photography</a></li>
         <li><a href="webdesign.html">Web Design</a></li>
         <li><a href="ssm.html">Social Media Management</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
+
+    </header>
+
+    <nav>
     </nav>
 
-    <main>
-      <section class="about">
-        <h2>About</h2>
-          <article>
-            <p><i>A local company in Lexington, Kentucky providing services across the region. Contact us with any questions!</i></p>
-            <p>We currently offer photography, web design and social media management services</p>
-              <h4>
-                If you have further questions feel free to <a href="contact.html">contact us</a> and leave a message.
-              </h4>
+    <img src="images/hero.jpg" alt="home" class="respon"/>
+
+    <section id="feedback">
+        <article>
+          <h2>About</h2>
+          <p><i>A local company in Lexington, Kentucky providing services across the region. Contact us with any questions!</i></p>
+          <p>We currently offer photography, web design and social media management services</p>
+            <h4>
+              If you have further questions feel free to <a href="contact.html">contact us</a> and leave a message.
+            </h4>
+      </article>
+
+      <article>
+      <h2>Reviews</h2>
+          <p><q>Dom is the best social media manager I have worked with so far, he grew my business substantially</q> - 03/02/2020</p>
+          <p><q>The best quality of work has came from Nova Design</q> - 02/25/2020</p>
+          <p><q>Nova Design has the best ideas</q> - 01/18/2020</p>
         </article>
-      </section>
+    </section>
 
-      <section class="reviews">
-        <h2>Reviews</h2>
-            <p><q>Dom is the best social media manager I have worked with so far, he grew my business substantially</q> - 03/02/2020</p>
-            <p><q>The best quality of work has came from Nova Design</q> - 02/25/2020</p>
-            <p><q>Nova Design has the best ideas</q> - 01/18/2020</p>
-      </section>
-    </main>
+    <section class="grid3">
+      <article>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum nunc aliquet bibendum enim. Rhoncus est pellentesque elit ullamcorper dignissim cras. Nec nam aliquam sem et tortor consequat id porta. Vel risus commodo viverra maecenas accumsan lacus vel facilisis. Pretium aenean pharetra magna ac placerat vestibulum. Viverra nibh cras pulvinar mattis nunc sed blandit. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Ut morbi tincidunt augue interdum velit. Non curabitur gravida arcu ac tortor dignissim convallis.</p>
+      </article>
 
-      <br>
+      <article>
+        <h2>Social Media Management</h2>
+        <p>Id faucibus nisl tincidunt eget nullam non nisi. Posuere sollicitudin aliquam ultrices sagittis orci a. Ultrices mi tempus imperdiet nulla malesuada. Nulla pellentesque dignissim enim sit amet. In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Vestibulum lorem sed risus ultricies tristique nulla. Ut tristique et egestas quis ipsum suspendisse ultrices gravida. Dis parturient montes nascetur ridiculus mus. Convallis a cras semper auctor neque vitae tempus quam. Non curabitur gravida arcu ac. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis. Nullam ac tortor vitae purus faucibus ornare suspendisse. Egestas dui id ornare arcu odio ut sem nulla pharetra.</p>
+      </article>
+
+      <article>
+        <h2>Photography</h2>
+        <p>Mauris ultrices eros in cursus turpis massa tincidunt dui. Consectetur purus ut faucibus pulvinar elementum. Magna ac placerat vestibulum lectus mauris ultrices eros. Pellentesque nec nam aliquam sem et tortor consequat. Amet aliquam id diam maecenas ultricies mi eget. Donec enim diam vulputate ut pharetra. Id interdum velit laoreet id donec. Feugiat pretium nibh ipsum consequat. Elementum nisi quis eleifend quam adipiscing vitae. </p>
+      </article>
+    </section>
+
+    <br>
 
     <footer>
-      <p><small>©Copyright 2020 Nova Design. All rights reversed.</small></p>
+      <section>
+        <article id="footer">
+          <div>
+            <h2>Visit Us</h2>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.7121197373117!2d-84.51562634924397!3d38.030490305079496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884244af89e9123f%3A0xfcc148a75010c250!2s210%20State%20St%2C%20Lexington%2C%20KY%2040503!5e0!3m2!1sen!2sus!4v1586286912322!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+          </div>
+          <div>
+            <h2>Contact Us</h2>
+            <p><i>A local company in Lexington, Kentucky providing services across the region. If you cannot find what you are looking for feel free to contact us with any questions!</i></p>
+            <br>
+            <p> 859-221-6606 </p>
+          </div>
+          <div>
+            <h2>Navigation</h2>
+            <ul id="footernav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="photography.html">Photography</a></li>
+              <li><a href="webdesign.html">Web Design</a></li>
+              <li><a href="ssm.html">Social Media Management</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+      </article>
+      <div id="copyright"><small>©Copyright 2020 Nova Design. All rights reversed.</small></div>
+    </section>
     </footer>
 
   </body>
